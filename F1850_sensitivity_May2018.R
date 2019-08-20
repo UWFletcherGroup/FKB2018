@@ -1,4 +1,8 @@
 # ---------------------------------------
+# Disclaimer: this script is adapted from Doug McNeall's script famous_sensitivity.R,
+# Source is located in the famous-git directory at github.com/dougmcneall/famous-git
+#
+# ---------------------------------------
 # cgf: April 20, 2018
 # this version works with the revised F1850 simulations run by Bakr
 # that have fixed a bug with the x parameter.
@@ -10,8 +14,6 @@
 # ---------------------------------------
 #
 # cgf: Run the emulator and conduct variance-based sensitivity analysis.
-#
-# Adapted from Doug McNeall's script famous_sensitivity.R
 #
 
 # -----------------------------------------------------------------

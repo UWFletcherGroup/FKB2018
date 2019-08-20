@@ -1,4 +1,9 @@
 # ---------------------------------------
+# Disclaimer: this script is adapted from Doug McNeall's script famous_direct.R,
+# for the direct emulation of Forest fraction of the FAMOUS climate model.
+# Source is located in the famous-git directory at github.com/dougmcneall/famous-git
+#
+# ---------------------------------------
 # cgf: April 20, 2018
 # this version works with the revised F1850 simulations run by Bakr
 # that have fixed a bug with the x parameter.
@@ -25,9 +30,6 @@
 # cgf: Run the emulator to predict CS and AOD and SS,
 # use predict() to expand the probability space,
 # then use SS to constrain parameter ranges.
-#
-# Adapted from Doug McNeall's script famous_direct.R
-# Direct emulation of Forest fraction of the FAMOUS model
 
 # -----------------------------------------------------------------
 # 0. Packages, functions and data

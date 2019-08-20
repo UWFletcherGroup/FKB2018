@@ -1,3 +1,7 @@
+# ---------------------------------------
+# Disclaimer: this script is adapted from Doug McNeall's script famous_direct.R,
+# for the direct emulation of Forest fraction of the FAMOUS climate model.
+# Source is located in the famous-git directory at github.com/dougmcneall/famous-git
 #
 # ---------------------------------------
 # cgf: April 20, 2018
@@ -24,11 +28,6 @@
 # then use SS and AOD, and aerosol parameters, to extract ARF "scenario" cases:
 #   Sh.Bh, Sm.Bm, Sl.Bl, Sh.Bl and Sl.Bh
 # while also looking for end-members in Cess CS.
-#
-#
-# Adapted from Doug McNeall's script famous_direct.R
-# Direct emulation of Forest fraction of the FAMOUS
-# model
 #
 # NOTE: not using normalized predictors, for simplicity.
 

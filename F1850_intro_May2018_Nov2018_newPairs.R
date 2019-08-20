@@ -1,4 +1,10 @@
 # ---------------------------------------
+# Disclaimer: this script is adapted from Doug McNeall's script famous_intro.R,
+# for creating some descriptive plots of the ensemble of the FAMOUS climate model.
+# (figure BL_obs_ensemble_mean_sd and figure frac_pairs)
+# Source is located in the famous-git directory at github.com/dougmcneall/famous-git
+#
+# ---------------------------------------
 # cgf: April 20, 2018
 # this version works with the revised F1850 simulations run by Bakr
 # that have fixed a bug with the x parameter.
@@ -6,16 +12,6 @@
 #
 # May 4, 2018: re-ran n=350 training cases on Graham. Use those data here.
 # ---------------------------------------
-#
-# Descriptive plots for F1850 cases
-#
-# Based on Doug McNeall's famous_intro.R
-# Some descriptive plots of the ensemble of FAMOUS
-# Plots summary figures for the paper.
-# (figure BL_obs_ensemble_mean_sd and figure frac_pairs)
-# D. McNeall dougmcneall@gmail.com
-
-#
 #
 # Nov 2018: new version of the pairs plot with shaded background colour based on correlation
 

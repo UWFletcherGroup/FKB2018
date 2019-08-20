@@ -1,6 +1,10 @@
 #
 #
 # ---------------------------------------
+# Disclaimer: this script is adapted from Doug McNeall's script famous_common.R,
+# located in the famous-git directory at github.com/dougmcneall/famous-git
+#
+# ---------------------------------------
 # cgf: April 20, 2018
 # this version works with the revised F1850 simulations run by Bakr
 # that have fixed a bug with the x parameter.
@@ -11,7 +15,7 @@
 # May 4, 2018: re-ran n=350 training cases on Graham. Use those data here.
 # ---------------------------------------
 #
-# Doug McNeall's helper functions and stuff
+# Doug McNeall's helper functions
 # plus my own data reading directories
 library(DiceKriging)
 library(RColorBrewer)
